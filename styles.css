@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto";
+}
+
+.feed__item {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem auto;
+}
+
+.feed__item__description {
+  margin: 1rem 1rem;
+}
+
+.feed__item__img {
+  padding: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
